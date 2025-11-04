@@ -89,6 +89,12 @@ h1 {
     margin: 0 5px;
     cursor: pointer;
     font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c6b1cf;
+    transform: translateY(-3px);
 }
 
 .btn-tab-1 {
